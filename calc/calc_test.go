@@ -25,8 +25,8 @@ func Test_Multi(t *testing.T) {
 }
 
 func Test_Div(t *testing.T) {
-	ret := Div(16, 8)
-	if ret != 2 {
-		t.Error("not equle 2 :", ret)
+	ret := Div(float64(6), float64(12))
+	if ret != 0.5 {
+		t.Error("not equle 0.5 :", ret)
 	}
 }

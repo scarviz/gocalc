@@ -12,6 +12,6 @@ func Multi(val1, val2 int) int {
 	return val1 * val2
 }
 
-func Div(val1, val2 int) float64 {
-	return float64(val1 / val2)
+func Div(val1, val2 float64) float64 {
+	return val1 / val2
 }
