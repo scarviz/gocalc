@@ -37,6 +37,10 @@ go/calcディレクトリ以下にCalc.javaを配置する
 
 mainディレクトリ以下にjniLibsディレクトリを作成し、その下にarmeabi-v7aディレクトリ以下を配置する
 
+onCreateメソッドでGo.initメソッドを呼ぶ
+
+    Go.init(getApplicationContext());
+
 goの関数(Calc.javaのメソッド)を、Activityクラスなどから呼び出すように実装する
 
 Runで端末(またはエミュレータ)にインストールし、実行する
